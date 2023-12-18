@@ -1,17 +1,23 @@
-// Considerando que 𝑎 = 4, 𝑏 = 7, 𝑐 = 2𝑏, 𝑥 = 𝑎 , 𝑦 = 3𝑥, 𝑢 = 6, 𝑤 = 10; crear 
-// un algoritmo con JavaScript que realice y muestre el resultado en consola de las 
-// siguientes operaciones algebraica:
+let a = 4;
+let b = 7;
+let c = 2 * b;
+let x = a;
+let y = 3 * x;
+let u = 6;
+let w = 10;
+
 // a.
-// 𝑎
-// 𝑏𝑐
-// b. 𝑎
-// 2 + 𝑏
-// 92
-// c.
-// 𝑥+𝑦
-// 𝑢+
-// 𝑤
-// 𝑎
-// d. 𝑥
-// 𝑦
-// (𝑧 + 𝑤)
+let resultadoA = 4 / (72 * b);
+console.log("Resultado a:", resultadoA);
+
+// b. 
+let resultadoB = 42 + 7 * 92;
+console.log("Resultado b:", resultadoB);
+
+//  c.
+let resultadoC = (a + 3 * x) / (u + w / 4);
+console.log("Resultado c:", resultadoC);
+
+// d. 
+let resultadoD = a / (3 * x * (7 + 10));
+console.log("Resultado d:", resultadoD);
