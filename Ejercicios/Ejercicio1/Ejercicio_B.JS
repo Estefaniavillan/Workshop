@@ -7,7 +7,6 @@
 const valorCompra = prompt("Por favor ingrese el valor de la compra");
 const descuento = Number(valorCompra) > 100000 || Number(valorCompra) == 100000;
 
-
 console.log("Ejercicio 1 b");
 console.log("¿Recibe el 50% de descuento? ", descuento);
 

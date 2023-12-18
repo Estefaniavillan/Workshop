@@ -8,6 +8,7 @@
 // iii. Mostrar en consola el nombre del empleado, su salario básico 
 // mensual y si recibe o no subsidio de transporte.
 
+
 const nombreEmpleado = prompt("Por favor, ingrese el nombre del empleado");
 const salarioBasico = prompt("Por favor, ingrese el salario básico por horas");
 const horasTrabajadasMes = prompt("Ingrese el número de horas trabajadas en un mes");

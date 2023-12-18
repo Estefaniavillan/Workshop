@@ -5,4 +5,4 @@ const numero= prompt("Ingresa un número para determinar si es múltiplo de 2")
 const multiplo2 = Number(numero)%2 == 0;
 
 console.log("Ejercicio 1 c");
-console.log("¿Es múltiplo de 2? ", multiplo2)
+console.log("¿Es múltiplo de 2? ", multiplo2);

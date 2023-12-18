@@ -9,6 +9,7 @@
   años?
   iii. ¿El sueldo es mayor o igual a $2000 US?
 */
+
 const sueldo = prompt("Por favor ingrese su sueldo");
 const antiguedad = prompt("Por favor ingrese su antiguedad");
 
