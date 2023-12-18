@@ -13,20 +13,25 @@ const sueldo = prompt("Por favor ingrese su sueldo");
 const antiguedad = prompt("Por favor ingrese su antiguedad");
 
 //Ejercio 1.a
-//alert("Su suedlo es" + sueldo)
-// prueba 1 -> sueldo 3000 y antiguedad 10
 const sueldoInferior2000 = Number(sueldo) < 2000; //F
-const antiguedad10 = Number(antiguedad) == 10 || Number(antiguedad) > 10; // V  || F = V
-const ejercicioA = sueldoInferior2000 && antiguedad10; // F && V = F
-console.log("respuesta 1.a: " + ejercicioA);
+const antiguedad10 = Number(antiguedad) == 10 || Number(antiguedad) > 10;
+const ejercicioA = sueldoInferior2000 && antiguedad10;
+console.log("respuesta 1.a ");
+console.log(
+  "¿El sueldo es inferior a $2000 US y su antigüedad es igual o superior a 10 años?",
+  ejercicioA
+);
 
-// Ejercio 1.b 
-// prueba 1 -> sueldo 3000 y antiguedad 10
-const antiguedadMenor10 = Number(antiguedad) < 10; //F
-const ejercicioB = sueldoInferior2000 || antiguedadMenor10;  // F || F = F
-console.log("respuesta 1.b: "+ ejercicioB);
+// Ejercio 1.b
+const antiguedadMenor10 = Number(antiguedad) < 10;
+const ejercicioB = sueldoInferior2000 || antiguedadMenor10;
+console.log("respuesta 1.b: ");
+console.log(
+  "¿El sueldo es inferior a $2000 US o su antigüedad es menor a 10 años?",
+  ejercicioB
+);
 
 //Ejercicio 1.c
-// prueba 1 -> sueldo 3000 y antiguedad 10
 const ejercicioC = !sueldoInferior2000;
-console.log("respuesta ejercicio 1.c: "+ejercicioC);
+console.log("respuesta 1.c: ");
+console.log("¿El sueldo es mayor o igual a $2000 US?", ejercicioC);
